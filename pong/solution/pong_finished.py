@@ -4,8 +4,8 @@ from turtle import Screen
 from turtle import Turtle
 
 # classes here
-class Paddle(Turtle, side):
-    def __init__(self):
+class Paddle(Turtle):
+    def __init__(self, side):
         super().__init__()
         if side == "left":
             self.goto(-360,0)
