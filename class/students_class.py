@@ -1,6 +1,5 @@
 class Student:
-    # code we’ll write later
-
+    ...# code we’ll write later
 
 def main():
     student = get_student()
@@ -12,7 +11,6 @@ def get_student():
     student.name = input("Name: ")
     student.house = input("House: ")
     return student
-
 
 if __name__ == "__main__":
     main()
